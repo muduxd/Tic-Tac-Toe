@@ -1,0 +1,39 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#grid {
+  border: 3px solid black;
+  width: 90vh;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#player {
+  font-size: 3vh;
+}
+
+#upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+}
+
+button {
+  font-size: 3vh;
+}
+
+.square {
+  border: 3px solid black;
+  width: 30vh;
+  height: 30vh;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25vh;
+  font-size: 10vh;
+  font-weight: 100;
+}
